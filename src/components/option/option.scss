@@ -1,0 +1,51 @@
+.option {
+  display: flex;
+  background: white;
+  margin-bottom: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  & > * {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: rgb(242, 248, 252);
+
+    svg {
+      width: 18px;
+    }
+  }
+
+  .content {
+    padding: 0 16px;
+    flex: 1;
+    align-items: center;
+
+    h4 {
+      color: rgb(62, 63, 65);
+      font-size: 17px;
+      text-transform: uppercase;
+      font-weight: 200px;
+      margin-right: 1rem;
+      width: 17%;
+    }
+
+    span {
+      color: rgb(134, 138, 141);
+    }
+  }
+
+  .expand {
+    font-weight: bold;
+    color: rgb(192, 192, 192);
+    font-size: 2rem;
+    padding: 0 16px;
+  }
+}

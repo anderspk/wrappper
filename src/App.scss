@@ -1,0 +1,13 @@
+@import "./styles";
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > div {
+    width: 70%;
+  }
+}

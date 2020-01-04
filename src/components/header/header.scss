@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  z-index: 1000;
+
+  ul {
+    display: flex;
+
+    a {
+      margin: 0 1rem;
+    }
+  }
+
+  .nav-items a:hover {
+    background: rgb(172, 215, 255);
+  }
+
+  .social-items {
+    svg {
+      height: 30px;
+    }
+  }
+}
